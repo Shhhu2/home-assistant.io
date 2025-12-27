@@ -1,6 +1,9 @@
 ---
 title: "Automation YAML"
 description: "How to use the automation integration with YAML."
+related:
+  - docs: /docs/automation/examples/battery_monitoring/
+    title: Battery Monitoring Example
 ---
 
 Automations are created in Home Assistant via the UI, but are stored in a {% term YAML %} format. If you want to edit the {% term YAML %} of an {% term automation %}, select the automation, click on the menu button in the top right then on **Edit in YAML**.
@@ -267,3 +270,9 @@ When automations remain visible in the Home Assistant dashboard, even after havi
 To delete them completely, go to UI {% my entities title="**Settings** > **Devices & services** > **Entities**" %} and find the automation in the search field or by scrolling down.
 
 Check the square box aside of the automation you wish to delete and from the top-right of your screen, select 'REMOVE SELECTED'.
+
+## Automation examples
+
+Looking for more complex automation examples? Check out these ready-to-use configurations:
+
+- [Battery Monitoring](/docs/automation/examples/battery_monitoring/) - Automatically monitor all device batteries, receive low battery alerts, and get periodic status reports.
